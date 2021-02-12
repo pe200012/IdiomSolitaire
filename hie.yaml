@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "IdiomSolitaire:lib"
+
+    - path: "./app/Main.hs"
+      component: "IdiomSolitaire:exe:IdiomSolitaire-exe"
+
+    - path: "./app/Paths_IdiomSolitaire.hs"
+      component: "IdiomSolitaire:exe:IdiomSolitaire-exe"
+
+    - path: "./test"
+      component: "IdiomSolitaire:test:IdiomSolitaire-test"
