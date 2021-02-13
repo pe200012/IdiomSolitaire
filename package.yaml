@@ -22,12 +22,17 @@ description:         Please see the README on GitHub at <https://github.com/gith
 dependencies:
 - base >= 4.7 && < 5
 - aeson
+- esqueleto
+- persistent
+- persistent-template
+- persistent-sqlite
 - microlens
 - microlens-aeson
 - containers
 - unordered-containers
 - cryptohash-sha256
 - bytestring
+- mtl
 - text
 
 library:
